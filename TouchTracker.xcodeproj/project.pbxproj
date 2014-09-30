@@ -12,6 +12,9 @@
 		E2B8C3D319D301EC00694118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B8C3D219D301EC00694118 /* Images.xcassets */; };
 		E2B8C3D619D301EC00694118 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B8C3D419D301EC00694118 /* LaunchScreen.xib */; };
 		E2B8C3E219D301EC00694118 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B8C3E119D301EC00694118 /* TouchTrackerTests.m */; };
+		E2B8C3ED19D3021300694118 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B8C3EC19D3021300694118 /* BNRLine.m */; };
+		E2B8C3F019D302B100694118 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B8C3EF19D302B100694118 /* BNRDrawView.m */; };
+		E2B8C3F319D3035100694118 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B8C3F219D3035100694118 /* BNRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 		E2B8C3DB19D301EC00694118 /* TouchTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8C3E019D301EC00694118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B8C3E119D301EC00694118 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		E2B8C3EB19D3021300694118 /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRLine.h; path = ../BNRLine.h; sourceTree = "<group>"; };
+		E2B8C3EC19D3021300694118 /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRLine.m; path = ../BNRLine.m; sourceTree = "<group>"; };
+		E2B8C3EE19D302B100694118 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRDrawView.h; path = ../BNRDrawView.h; sourceTree = "<group>"; };
+		E2B8C3EF19D302B100694118 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRDrawView.m; path = ../BNRDrawView.m; sourceTree = "<group>"; };
+		E2B8C3F119D3035100694118 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRDrawViewController.h; path = ../BNRDrawViewController.h; sourceTree = "<group>"; };
+		E2B8C3F219D3035100694118 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRDrawViewController.m; path = ../BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,12 @@
 		E2B8C3CA19D301EC00694118 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
+				E2B8C3EB19D3021300694118 /* BNRLine.h */,
+				E2B8C3EC19D3021300694118 /* BNRLine.m */,
+				E2B8C3EE19D302B100694118 /* BNRDrawView.h */,
+				E2B8C3EF19D302B100694118 /* BNRDrawView.m */,
+				E2B8C3F119D3035100694118 /* BNRDrawViewController.h */,
+				E2B8C3F219D3035100694118 /* BNRDrawViewController.m */,
 				E2B8C3CF19D301EC00694118 /* AppDelegate.h */,
 				E2B8C3D019D301EC00694118 /* AppDelegate.m */,
 				E2B8C3D219D301EC00694118 /* Images.xcassets */,
@@ -211,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B8C3D119D301EC00694118 /* AppDelegate.m in Sources */,
+				E2B8C3F319D3035100694118 /* BNRDrawViewController.m in Sources */,
+				E2B8C3ED19D3021300694118 /* BNRLine.m in Sources */,
 				E2B8C3CE19D301EC00694118 /* main.m in Sources */,
+				E2B8C3F019D302B100694118 /* BNRDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
